@@ -37,7 +37,8 @@ body {
         alt="David's Page Icon"
         loading="lazy"
       /> David's Page</a> </div>
-	  <div class="col-md"><button
+    <div class="col-md">
+      <button
       class="navbar-toggler"
       type="button"
       data-mdb-toggle="collapse"
@@ -45,14 +46,15 @@ body {
       aria-controls="navbarNav"
       aria-expanded="false"
       aria-label="Toggle navigation"
-    > <i class="fas fa-bars"></i> </button></div>  
+    > <i class="fas fa-bars"></i> </button>
+    </div>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
         <li class="nav-item"> <a class="nav-link" href="news.html">News</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="blog.html">Blog</a> </li>
+        <li class="nav-item"> <a class="nav-link"  href="blog.html">Blog</a> </li>
         <li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a> </li>
-		 <!-- Dropdown  
+        <!-- Dropdown  
 <div class="col-md offset-md-7">
 			  <div class="d-flex align-items-end"> 
       <li class="nav-item dropdown">
@@ -74,51 +76,117 @@ body {
       </li> 
 		  </div>
 		  </div>
---> 
-	  
+-->
+        
       </ul>
     </div>
   </div>
 </nav>
 <div class="container">
-    <div class="p-3">
-      <div class="card shadow-1" >
-        <div class="card-body">
-          <div class="container-md" >
-            <div class="row g-0">
-              <div class="col-lg-9">
-                <div class="p-2">
-                  <div class="card border-dark shadow-0"> </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Get going, don't wait!</h5>
-                    <p class="card-text"> Always what I've been saying, don't fool around too long, <strong>DO IT</strong>!<br>
-                      If something has been holding you up for a while then take some time to think about it and whether it is worth proceeding with it. You'll come to a conclusion which will then draw the path for your next move. Continueing ignoring one's problems is never a good option and you should always be prepared to make changes yourself. The world around us is ever so more complicated to us the more we look past it's many problems yet suffer from their consequences. Don't be blind! Face the fact that You and I can change this world for the better, together.<br>
-                      So let's act on it: Starting with ourselves.</p>
-                    <hr>
-                    <p class="card-text">Get yourself some free Original Wallpapers made by me, available for both Phones and Desktop PCs in full 4K resolution!</p>
-                    <a href="gallery.html" class="btn btn-primary">FREE WALLPAPERS</a> </div>
-                  <div class="card-body">
-                    <h5 class="card-title">INTRODUCTION</h5>
-                    <p class="card-text"> I've always felt the need to express myself in some form by which I can reach many people without forcing it on them. This website is a place where I try to do so. Different from what most people occosciate their place to do so on the internet being social media platfroms such as Facebook, Instagram or Twitter, I find more value in creating my own way of platform: This site. <br>
-                      First of all I do not believe in such platforms adding much in the way to our individualism as some may think. The user is never the one in controll over their data, nor is there enough transparencey regarding changes to the algorithm. Increasingly the frontpage and the entire layout of such platfroms have become just huge digital billboards, forcing you to watch and click on so much random content and then manipulating you into buying things you never needed. <br>
-                      These things don't add to our valuable time nor do they make us actually happier. Because I realised this I deleted all main accounts I had on theses platforms and started living happier ever since, not having to worry about my and their fake image we had build for ourselves. Let me be real here: <br>
-                      I own this site, I created it and I'm going to make it whatever I feel like making it. <br>
-                      So without further notice; please enjoy and check out the content I create. </p>
-                  </div>
+  <div class="p-3">
+    <div class="card shadow-1" >
+      <div class="card-body">
+        <div class="container-md" >
+          <div class="row g-0">
+            <div class="col-lg-9">
+              <div class="p-2">
+                <div class="card shadow-0"> 
+                  <!-- Carousel wrapper -->
+                  <div
+  id="carouselDarkVariant"
+  class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+> 
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="0" class="active"></li>
+                      <li data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="1"></li>
+                      <li data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="2"></li>
+                    </ol>
+                    
+                    <!-- Inner -->
+                    <div class="carousel-inner"> 
+                      <!-- Single item -->
+                      <div class="carousel-item active"> <img
+        src="img/camera-wall.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+                        <div class="carousel-caption">
+                          <h5>The Privacy Blog</h5>
+                          <p>Check out my blog where I write about privacy related topics</p>
+                        </div>
+                      </div>
+                      
+                      <!-- Single item -->
+                      <div class="carousel-item"> <img
+        src="img/pictures-pinned.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+                        <div class="carousel-caption">
+                          <h5>My Photo Gallery</h5>
+                          <p>Look at original pictures I took availiable for free download</p>
+                        </div>
+                      </div>
+                      
+                      <!-- Single item -->
+                      <div class="carousel-item"> <img
+        src="img/guy-laptop.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+                        <div class="carousel-caption">
+                          <h5>There's MORE?!</h5>
+                          <p>Check out what else I got in store!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Inner --> 
+                    
+                    <!-- Controls --> 
+                    <a
+    class="carousel-control-prev"
+    href="#carouselDarkVariant"
+    role="button"
+    data-mdb-slide="prev"
+  > <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </a> <a
+    class="carousel-control-next"
+    href="#carouselDarkVariant"
+    role="button"
+    data-mdb-slide="next"
+  > <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </a> </div>
+                  <!-- Carousel wrapper --> 
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Get going, don't wait!</h5>
+                  <p class="card-text"> Always what I've been saying, don't fool around too long, <strong>DO IT</strong>!<br>
+                    If something has been holding you up for a while then take some time to think about it and whether it is worth proceeding with it. You'll come to a conclusion which will then draw the path for your next move. Continueing ignoring one's problems is never a good option and you should always be prepared to make changes yourself. The world around us is ever so more complicated to us the more we look past it's many problems yet suffer from their consequences. Don't be blind! Face the fact that You and I can change this world for the better, together.<br>
+                    So let's act on it: Starting with ourselves.</p>
+                  <hr>
+                  <p class="card-text">Get yourself some free Original Wallpapers made by me, available for both Phones and Desktop PCs in full 4K resolution!</p>
+                  <a href="gallery.html" class="btn btn-primary">FREE WALLPAPERS</a> </div>
+                <div class="card-body">
+                  <h5 class="card-title">INTRODUCTION</h5>
+                  <p class="card-text"> I've always felt the need to express myself in some form by which I can reach many people without forcing it on them. This website is a place where I try to do so. Different from what most people occosciate their place to do so on the internet being social media platfroms such as Facebook, Instagram or Twitter, I find more value in creating my own way of platform: This site. <br>
+                    First of all I do not believe in such platforms adding much in the way to our individualism as some may think. The user is never the one in controll over their data, nor is there enough transparencey regarding changes to the algorithm. Increasingly the frontpage and the entire layout of such platfroms have become just huge digital billboards, forcing you to watch and click on so much random content and then manipulating you into buying things you never needed. <br>
+                    These things don't add to our valuable time nor do they make us actually happier. Because I realised this I deleted all main accounts I had on theses platforms and started living happier ever since, not having to worry about my and their fake image we had build for ourselves. Let me be real here: <br>
+                    I own this site, I created it and I'm going to make it whatever I feel like making it. <br>
+                    So without further notice; please enjoy and check out the content I create. </p>
                 </div>
               </div>
-              <div class="col-lg-3">
-                <div class="p-2">
-                  <div class="card border shadow-0">
-                    <div class="card-header">
-                      <h2 class="card-title text-center">[News!]</h2>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Launch of the website!</h5>
-                      <p class="card-text"> It took some time to make but it's finally out! (See: <a href="changelog.html">/changelog.html</a>)</p>
-                    </div>
-                    <div class="card-footer text-muted">from 1/30/2021</div>
+            </div>
+            <div class="col-lg-3">
+              <div class="p-2">
+                <div class="card border shadow-0">
+                  <div class="card-header">
+                    <h2 class="card-title text-center">[News!]</h2>
                   </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Launch of the website!</h5>
+                    <p class="card-text"> It took some time to make but it's finally out! (See: <a href="changelog.html">/changelog.html</a>)</p>
+                  </div>
+                  <div class="card-footer text-muted">from 1/30/2021</div>
                 </div>
               </div>
             </div>
@@ -126,6 +194,7 @@ body {
         </div>
       </div>
     </div>
+  </div>
 </div>
 <footer class="bg-dark text-white text-center text-lg-start"> 
   <!-- Grid container -->
@@ -136,7 +205,7 @@ body {
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h5 class="text-uppercase">About</h5>
         <p> This site is a creation made by me, the author aka David, based on the popular webdesign framework MDBootstrap v5. <br>
-          I created this project mainly for fun and learning purposes and as a way to connect with more people in a differnt way.</p>
+          I created this project mainly for fun and learning purposes and as a way to connect with more people in a different way.</p>
       </div>
       <!--Grid column--> 
       
@@ -144,7 +213,7 @@ body {
       <div class="col-lg-3 col-6 mb-4 mb-md-0">
         <h5 class="text-uppercase">SITES</h5>
         <ul class="list-unstyled mb-0">
-          <li> <a href="News.html" class="text-white">News</a> </li>
+          <li> <a href="news.html" class="text-white">News</a> </li>
           <li> <a href="blog.html" class="text-white">Blog</a> </li>
           <li> <a href="gallery.html" class="text-white">Gallery</a> </li>
           <li> <a href="more.html" class="text-white">More</a> </li>
@@ -176,7 +245,7 @@ body {
 </body>
 
 <!-- MDB -->
-<script type="text/javascript" src="file:///C|/Users/David/Desktop/js/mdb.min.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- Custom scripts -->
 <script type="text/javascript"></script>
 </html>
